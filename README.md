@@ -3,6 +3,10 @@ Este programa simula un juego en el que un jugador establece una contraseña y e
 El programa solicita al Jugador 1 que ingrese una contraseña y luego al Jugador 2 que intente adivinarla.
 Proporciona pistas sobre la contraseña, como su longitud, la primera letra y la última letra. Luego compare el intento del Jugador 2 con la contraseña ingresada, verificando carácter por carácter si coincide.
 Si el intento es correcto, muestra el mensaje "¡Acertaste!"; de lo contrario, muestra "Fallaste".
+## Refactorización Robert Esquerre:
+- Cambio de variable scanner (var a Scanner) para mejor lectura.
+- Orden de mostrar pistas cambiado, ya que mostraba las pistas después de escribir el intento.
+- Extracción de métodos para mostrar pistas y verificar el intento, para poder reutilizar.
 
 Ejercicio2:
 Este programa genera una tabla de 20 vocales aleatorias y calcula la frecuencia de aparición de cada una de ellas. 
